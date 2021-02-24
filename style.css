@@ -83,17 +83,29 @@ a {
   .navbar_icons.active {
     display: flex;
   }
+
+  .article {
+    margin-left: 20px;
+  }
 }
 
 .img {
-  padding: 60px 100px;
+  display: flex;
+  justify-content: center;
   padding-bottom: 0px;
 }
 
 .article {
-  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
 }
 
 .heart {
   color: dimgrey;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
